@@ -2,7 +2,7 @@ import React from 'react';
 import { Text, View } from 'react-native';
 
 import style from '../style/user-post-style';
-import UserRow from '../shared/user-row';
+import SongRow from '../shared/song-row';
 import NavButton from '../util/ui';
 import { prettyPrint } from '../util/logging';
 
@@ -27,7 +27,7 @@ export default class UserList extends React.Component {
 
   state = {
     loading: false,
-    userRows: null,
+    songRows: null,
   }
 
   componentDidMount() {
@@ -38,22 +38,37 @@ export default class UserList extends React.Component {
     };
     navigation.setParams(params);
 
-    // this.loadUsers();
+    this.loadSongs();
   }
 
   onSortPressed = () => {
 
   }
 
-  loadUsers = () => {
-    const props = {
-      method: 'GET',
-      url: USERS_URL,
-      onSuccess: this.onSuccessUsers,
-      onError: this.onErrorUsers,
-      onLoading: this.onLoadingUsers,
-    }
-    requestHandlerForMethod(props);
+  getSongs = () => {
+    return [
+        { artist: 'Led Zeppelin', songTitle: 'Black Dog'},
+        { artist: 'Led Zeppelin', songTitle: 'Going to California'},
+        { artist: 'Led Zeppelin', songTitle: 'Stairway to Heaven'},
+        { artist: 'Led Zeppelin', songTitle: 'Tangerine'},
+        { artist: 'Led Zeppelin', songTitle: 'Whole Lotta Love'},
+        { artist: 'Led Zeppelin', songTitle: 'Bonzo\'s Montreaux'},
+        { artist: 'Led Zeppelin', songTitle: 'Immigrant Song'},
+        { artist: 'Led Zeppelin', songTitle: 'Dazed and Confused'},
+        { artist: 'Led Zeppelin', songTitle: 'Black Mountain Side'},
+    ];
+  }
+
+  loadSongs = () => {
+    // const props = {
+    //   method: 'GET',
+    //   url: USERS_URL,
+    //   onSuccess: this.onSuccessUsers,
+    //   onError: this.onErrorUsers,
+    //   onLoading: this.onLoadingUsers,
+    // }
+    // requestHandlerForMethod(props);
+    this.onSuccessSongs(this.getSongs());
   }
 
   onUserPress = (user) => {
@@ -61,13 +76,13 @@ export default class UserList extends React.Component {
     navigate('PostList', { userId: user.id });
   }
 
-  onSuccessUsers = (users) => {
-    console.log(`users from server: ${prettyPrint(users)}`);
-    const userRows = users.map(user => (
-      <UserRow
-        user={user} onPress={() => this.onUserPress(user)} />
+  onSuccessSongs = (songs) => {
+    console.log(`songs from server: ${prettyPrint(songs)}`);
+    const songRows = songs.map(song => (
+      <SongRow
+        song={song} onPress={() => this.onUserPress(song)} />
     ));
-    this.setState({ userRows });
+    this.setState({ songRows });
   }
 
   onErrorUsers = (error) => {
@@ -79,11 +94,11 @@ export default class UserList extends React.Component {
   }
 
   render() {
-    const { loading, userRows } = this.state;
+    const { loading, songRows } = this.state;
     return (
       <LoadingIndicator loading={loading}>
         <SimpleList>
-          {userRows}
+          {songRows}
         </SimpleList>
       </LoadingIndicator>
     );

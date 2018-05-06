@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-const USER_ROW_HEIGHT = 280;
+const USER_ROW_HEIGHT = 60;
 const USER_ROW_LINE_HEIGHT = 20;
 const USER_ROW_TITLE_HEIGHT = 35;
 const DEFAULT_FONT_SIZE = 16;
@@ -24,6 +24,7 @@ export default StyleSheet.create({
   userRowWrapper: {
     backgroundColor: WHITE,
     height: USER_ROW_HEIGHT,
+    justifyContent: 'center',
   },
   postRowWrapper: {
     backgroundColor: WHITE,
