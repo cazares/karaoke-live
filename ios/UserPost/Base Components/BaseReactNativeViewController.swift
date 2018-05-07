@@ -14,7 +14,7 @@ class BaseReactNativeViewController: UIViewController {
     let defaultGrayBackgroundColor = UIColor(red: 238.0 / 255.0, green: 238.0 / 255.0, blue: 238.0 / 255.0, alpha: 1.0)
     let bundleExtension = "jsbundle"
     let separator = "/"
-    let debug = false
+    let debug = true
     
     var reactView: RCTRootView!
     var moduleName = defaultString

@@ -48,15 +48,15 @@
 /* Begin PBXFileReference section */
 		216854551C319E9A43159F17 /* Pods-UserPost.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserPost.release.xcconfig"; path = "Pods/Target Support Files/Pods-UserPost/Pods-UserPost.release.xcconfig"; sourceTree = "<group>"; };
 		72B621295D4B043E7C378C50 /* Pods_UserPost.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UserPost.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7343E8E32007FC7E00066741 /* UserPost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserPost.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7343E8E32007FC7E00066741 /* KaraokeLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KaraokeLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7343E8E62007FC7E00066741 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7343E8ED2007FC7E00066741 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7343E8F02007FC7E00066741 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7343E8F22007FC7E00066741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7343E8F72007FC7E00066741 /* UserPostTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserPostTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7343E8F72007FC7E00066741 /* KaraokeLiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaraokeLiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7343E8FB2007FC7E00066741 /* UserPostTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPostTests.swift; sourceTree = "<group>"; };
 		7343E8FD2007FC7E00066741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7343E9022007FC7E00066741 /* UserPostUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserPostUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7343E9022007FC7E00066741 /* KaraokeLiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaraokeLiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7343E9062007FC7E00066741 /* UserPostUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPostUITests.swift; sourceTree = "<group>"; };
 		7343E9082007FC7E00066741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7343E91A2008068100066741 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -124,9 +124,9 @@
 		7343E8E42007FC7E00066741 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7343E8E32007FC7E00066741 /* UserPost.app */,
-				7343E8F72007FC7E00066741 /* UserPostTests.xctest */,
-				7343E9022007FC7E00066741 /* UserPostUITests.xctest */,
+				7343E8E32007FC7E00066741 /* KaraokeLive.app */,
+				7343E8F72007FC7E00066741 /* KaraokeLiveTests.xctest */,
+				7343E9022007FC7E00066741 /* KaraokeLiveUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -218,9 +218,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7343E8E22007FC7E00066741 /* UserPost */ = {
+		7343E8E22007FC7E00066741 /* KaraokeLive */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7343E90B2007FC7E00066741 /* Build configuration list for PBXNativeTarget "UserPost" */;
+			buildConfigurationList = 7343E90B2007FC7E00066741 /* Build configuration list for PBXNativeTarget "KaraokeLive" */;
 			buildPhases = (
 				ED21CE68F6E79645D78D4C56 /* [CP] Check Pods Manifest.lock */,
 				7343E8DF2007FC7E00066741 /* Sources */,
@@ -232,14 +232,14 @@
 			);
 			dependencies = (
 			);
-			name = UserPost;
+			name = KaraokeLive;
 			productName = UserPost;
-			productReference = 7343E8E32007FC7E00066741 /* UserPost.app */;
+			productReference = 7343E8E32007FC7E00066741 /* KaraokeLive.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7343E8F62007FC7E00066741 /* UserPostTests */ = {
+		7343E8F62007FC7E00066741 /* KaraokeLiveTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7343E90E2007FC7E00066741 /* Build configuration list for PBXNativeTarget "UserPostTests" */;
+			buildConfigurationList = 7343E90E2007FC7E00066741 /* Build configuration list for PBXNativeTarget "KaraokeLiveTests" */;
 			buildPhases = (
 				7343E8F32007FC7E00066741 /* Sources */,
 				7343E8F42007FC7E00066741 /* Frameworks */,
@@ -250,14 +250,14 @@
 			dependencies = (
 				7343E8F92007FC7E00066741 /* PBXTargetDependency */,
 			);
-			name = UserPostTests;
+			name = KaraokeLiveTests;
 			productName = UserPostTests;
-			productReference = 7343E8F72007FC7E00066741 /* UserPostTests.xctest */;
+			productReference = 7343E8F72007FC7E00066741 /* KaraokeLiveTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7343E9012007FC7E00066741 /* UserPostUITests */ = {
+		7343E9012007FC7E00066741 /* KaraokeLiveUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7343E9112007FC7E00066741 /* Build configuration list for PBXNativeTarget "UserPostUITests" */;
+			buildConfigurationList = 7343E9112007FC7E00066741 /* Build configuration list for PBXNativeTarget "KaraokeLiveUITests" */;
 			buildPhases = (
 				7343E8FE2007FC7E00066741 /* Sources */,
 				7343E8FF2007FC7E00066741 /* Frameworks */,
@@ -268,9 +268,9 @@
 			dependencies = (
 				7343E9042007FC7E00066741 /* PBXTargetDependency */,
 			);
-			name = UserPostUITests;
+			name = KaraokeLiveUITests;
 			productName = UserPostUITests;
-			productReference = 7343E9022007FC7E00066741 /* UserPostUITests.xctest */;
+			productReference = 7343E9022007FC7E00066741 /* KaraokeLiveUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -299,7 +299,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7343E8DE2007FC7E00066741 /* Build configuration list for PBXProject "UserPost" */;
+			buildConfigurationList = 7343E8DE2007FC7E00066741 /* Build configuration list for PBXProject "KaraokeLive" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -312,9 +312,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7343E8E22007FC7E00066741 /* UserPost */,
-				7343E8F62007FC7E00066741 /* UserPostTests */,
-				7343E9012007FC7E00066741 /* UserPostUITests */,
+				7343E8E22007FC7E00066741 /* KaraokeLive */,
+				7343E8F62007FC7E00066741 /* KaraokeLiveTests */,
+				7343E9012007FC7E00066741 /* KaraokeLiveUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -431,12 +431,12 @@
 /* Begin PBXTargetDependency section */
 		7343E8F92007FC7E00066741 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7343E8E22007FC7E00066741 /* UserPost */;
+			target = 7343E8E22007FC7E00066741 /* KaraokeLive */;
 			targetProxy = 7343E8F82007FC7E00066741 /* PBXContainerItemProxy */;
 		};
 		7343E9042007FC7E00066741 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7343E8E22007FC7E00066741 /* UserPost */;
+			target = 7343E8E22007FC7E00066741 /* KaraokeLive */;
 			targetProxy = 7343E9032007FC7E00066741 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -605,7 +605,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UserPost.app/UserPost";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaraokeLive.app/KaraokeLive";
 			};
 			name = Debug;
 		};
@@ -622,7 +622,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UserPost.app/UserPost";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaraokeLive.app/KaraokeLive";
 			};
 			name = Release;
 		};
@@ -661,7 +661,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7343E8DE2007FC7E00066741 /* Build configuration list for PBXProject "UserPost" */ = {
+		7343E8DE2007FC7E00066741 /* Build configuration list for PBXProject "KaraokeLive" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7343E9092007FC7E00066741 /* Debug */,
@@ -670,7 +670,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7343E90B2007FC7E00066741 /* Build configuration list for PBXNativeTarget "UserPost" */ = {
+		7343E90B2007FC7E00066741 /* Build configuration list for PBXNativeTarget "KaraokeLive" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7343E90C2007FC7E00066741 /* Debug */,
@@ -679,7 +679,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7343E90E2007FC7E00066741 /* Build configuration list for PBXNativeTarget "UserPostTests" */ = {
+		7343E90E2007FC7E00066741 /* Build configuration list for PBXNativeTarget "KaraokeLiveTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7343E90F2007FC7E00066741 /* Debug */,
@@ -688,7 +688,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7343E9112007FC7E00066741 /* Build configuration list for PBXNativeTarget "UserPostUITests" */ = {
+		7343E9112007FC7E00066741 /* Build configuration list for PBXNativeTarget "KaraokeLiveUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7343E9122007FC7E00066741 /* Debug */,

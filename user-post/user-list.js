@@ -56,6 +56,11 @@ export default class UserList extends React.Component {
         { artist: 'Led Zeppelin', songTitle: 'Immigrant Song'},
         { artist: 'Led Zeppelin', songTitle: 'Dazed and Confused'},
         { artist: 'Led Zeppelin', songTitle: 'Black Mountain Side'},
+        { artist: 'Maná', songTitle: 'Clavado en un Bar'},
+        { artist: 'Maná', songTitle: 'Mariposa Traicionera'},
+        { artist: 'Maná', songTitle: 'Me Vale'},
+        { artist: 'Maná', songTitle: 'Te Llore un Rio'},
+        { artist: 'Maná', songTitle: 'Angel de Amor'},
     ];
   }
 
