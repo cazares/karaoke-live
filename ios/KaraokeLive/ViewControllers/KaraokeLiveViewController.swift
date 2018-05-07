@@ -8,7 +8,7 @@
 
 import UIKit
 
-class UserPostViewController: BaseReactNativeViewController {
+class KaraokeLiveViewController: BaseReactNativeViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()

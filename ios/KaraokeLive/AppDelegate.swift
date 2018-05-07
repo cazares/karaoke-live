@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         application.isStatusBarHidden = false
         application.statusBarStyle = .lightContent
         
-        let mainViewController = UserPostViewController()
+        let mainViewController = KaraokeLiveViewController()
         window?.rootViewController = mainViewController
         window?.makeKeyAndVisible()
         

@@ -11,8 +11,8 @@
 		7343E8E72007FC7E00066741 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7343E8E62007FC7E00066741 /* AppDelegate.swift */; };
 		7343E8EE2007FC7E00066741 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7343E8ED2007FC7E00066741 /* Assets.xcassets */; };
 		7343E8F12007FC7E00066741 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7343E8EF2007FC7E00066741 /* LaunchScreen.storyboard */; };
-		7343E8FC2007FC7E00066741 /* UserPostTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7343E8FB2007FC7E00066741 /* UserPostTests.swift */; };
-		7343E9072007FC7E00066741 /* UserPostUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7343E9062007FC7E00066741 /* UserPostUITests.swift */; };
+		7343E8FC2007FC7E00066741 /* KaraokeLiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7343E8FB2007FC7E00066741 /* KaraokeLiveTests.swift */; };
+		7343E9072007FC7E00066741 /* KaraokeLiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7343E9062007FC7E00066741 /* KaraokeLiveUITests.swift */; };
 		7343E91B2008068100066741 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7343E91A2008068100066741 /* Main.storyboard */; };
 		735F7F142009C11500B6668A /* app-icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 735F7F132009C11500B6668A /* app-icon@3x.png */; };
 		735F7F1A2009C43500B6668A /* app-icon@2x~iPad-pro.png in Resources */ = {isa = PBXBuildFile; fileRef = 735F7F152009C43400B6668A /* app-icon@2x~iPad-pro.png */; };
@@ -22,7 +22,7 @@
 		735F7F1E2009C43500B6668A /* app-icon@2x~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 735F7F192009C43500B6668A /* app-icon@2x~iPad.png */; };
 		735F7F202009C52700B6668A /* app-store-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 735F7F1F2009C52600B6668A /* app-store-icon.png */; };
 		735F7F2A2015219300B6668A /* BaseReactNativeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735F7F292015219300B6668A /* BaseReactNativeViewController.swift */; };
-		735F7F2C2015232000B6668A /* UserPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735F7F2B2015232000B6668A /* UserPostViewController.swift */; };
+		735F7F2C2015232000B6668A /* KaraokeLiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735F7F2B2015232000B6668A /* KaraokeLiveViewController.swift */; };
 		735F7F2F2015249400B6668A /* String+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735F7F2E2015249400B6668A /* String+Util.swift */; };
 		735F7F31201525E100B6668A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735F7F30201525E100B6668A /* Constants.swift */; };
 		FB2DD013209FC0E600C999F6 /* user-post.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = FB2DD012209FC0E600C999F6 /* user-post.jsbundle */; };
@@ -54,10 +54,10 @@
 		7343E8F02007FC7E00066741 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7343E8F22007FC7E00066741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7343E8F72007FC7E00066741 /* KaraokeLiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaraokeLiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7343E8FB2007FC7E00066741 /* UserPostTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPostTests.swift; sourceTree = "<group>"; };
+		7343E8FB2007FC7E00066741 /* KaraokeLiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaraokeLiveTests.swift; sourceTree = "<group>"; };
 		7343E8FD2007FC7E00066741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7343E9022007FC7E00066741 /* KaraokeLiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaraokeLiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7343E9062007FC7E00066741 /* UserPostUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPostUITests.swift; sourceTree = "<group>"; };
+		7343E9062007FC7E00066741 /* KaraokeLiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaraokeLiveUITests.swift; sourceTree = "<group>"; };
 		7343E9082007FC7E00066741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7343E91A2008068100066741 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		735F7F132009C11500B6668A /* app-icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon@3x.png"; sourceTree = "<group>"; };
@@ -68,7 +68,7 @@
 		735F7F192009C43500B6668A /* app-icon@2x~iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon@2x~iPad.png"; sourceTree = "<group>"; };
 		735F7F1F2009C52600B6668A /* app-store-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-store-icon.png"; sourceTree = "<group>"; };
 		735F7F292015219300B6668A /* BaseReactNativeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseReactNativeViewController.swift; sourceTree = "<group>"; };
-		735F7F2B2015232000B6668A /* UserPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPostViewController.swift; sourceTree = "<group>"; };
+		735F7F2B2015232000B6668A /* KaraokeLiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaraokeLiveViewController.swift; sourceTree = "<group>"; };
 		735F7F2E2015249400B6668A /* String+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Util.swift"; sourceTree = "<group>"; };
 		735F7F30201525E100B6668A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D3463C5243B127995268CC6D /* Pods-UserPost.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserPost.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UserPost/Pods-UserPost.debug.xcconfig"; sourceTree = "<group>"; };
@@ -112,9 +112,9 @@
 		7343E8DA2007FC7E00066741 = {
 			isa = PBXGroup;
 			children = (
-				7343E8E52007FC7E00066741 /* UserPost */,
-				7343E8FA2007FC7E00066741 /* UserPostTests */,
-				7343E9052007FC7E00066741 /* UserPostUITests */,
+				7343E8E52007FC7E00066741 /* KaraokeLive */,
+				7343E8FA2007FC7E00066741 /* KaraokeLiveTests */,
+				7343E9052007FC7E00066741 /* KaraokeLiveUITests */,
 				7343E8E42007FC7E00066741 /* Products */,
 				D154B2C4845E6AF8C54ABB3E /* Pods */,
 				5A6B23912DD9B7BDE597DF04 /* Frameworks */,
@@ -131,7 +131,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7343E8E52007FC7E00066741 /* UserPost */ = {
+		7343E8E52007FC7E00066741 /* KaraokeLive */ = {
 			isa = PBXGroup;
 			children = (
 				735F7F21200A8D3300B6668A /* Images */,
@@ -145,32 +145,32 @@
 				7343E91A2008068100066741 /* Main.storyboard */,
 				735F7F30201525E100B6668A /* Constants.swift */,
 			);
-			path = UserPost;
+			path = KaraokeLive;
 			sourceTree = "<group>";
 		};
-		7343E8FA2007FC7E00066741 /* UserPostTests */ = {
+		7343E8FA2007FC7E00066741 /* KaraokeLiveTests */ = {
 			isa = PBXGroup;
 			children = (
-				7343E8FB2007FC7E00066741 /* UserPostTests.swift */,
+				7343E8FB2007FC7E00066741 /* KaraokeLiveTests.swift */,
 				7343E8FD2007FC7E00066741 /* Info.plist */,
 			);
-			path = UserPostTests;
+			path = KaraokeLiveTests;
 			sourceTree = "<group>";
 		};
-		7343E9052007FC7E00066741 /* UserPostUITests */ = {
+		7343E9052007FC7E00066741 /* KaraokeLiveUITests */ = {
 			isa = PBXGroup;
 			children = (
-				7343E9062007FC7E00066741 /* UserPostUITests.swift */,
+				7343E9062007FC7E00066741 /* KaraokeLiveUITests.swift */,
 				7343E9082007FC7E00066741 /* Info.plist */,
 			);
-			path = UserPostUITests;
+			path = KaraokeLiveUITests;
 			sourceTree = "<group>";
 		};
 		7343E9152008003400066741 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
 				FB2DD012209FC0E600C999F6 /* user-post.jsbundle */,
-				735F7F2B2015232000B6668A /* UserPostViewController.swift */,
+				735F7F2B2015232000B6668A /* KaraokeLiveViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -406,7 +406,7 @@
 				735F7F2F2015249400B6668A /* String+Util.swift in Sources */,
 				735F7F2A2015219300B6668A /* BaseReactNativeViewController.swift in Sources */,
 				7343E8E72007FC7E00066741 /* AppDelegate.swift in Sources */,
-				735F7F2C2015232000B6668A /* UserPostViewController.swift in Sources */,
+				735F7F2C2015232000B6668A /* KaraokeLiveViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,7 +414,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7343E8FC2007FC7E00066741 /* UserPostTests.swift in Sources */,
+				7343E8FC2007FC7E00066741 /* KaraokeLiveTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,7 +422,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7343E9072007FC7E00066741 /* UserPostUITests.swift in Sources */,
+				7343E9072007FC7E00066741 /* KaraokeLiveUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -567,7 +567,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7QRW68DD5X;
-				INFOPLIST_FILE = UserPost/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/KaraokeLive/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cazares.karaokeLive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -583,7 +583,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7QRW68DD5X;
-				INFOPLIST_FILE = UserPost/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/KaraokeLive/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cazares.karaokeLive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
