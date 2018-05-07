@@ -25,7 +25,6 @@
 		735F7F2C2015232000B6668A /* KaraokeLiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735F7F2B2015232000B6668A /* KaraokeLiveViewController.swift */; };
 		735F7F2F2015249400B6668A /* String+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735F7F2E2015249400B6668A /* String+Util.swift */; };
 		735F7F31201525E100B6668A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735F7F30201525E100B6668A /* Constants.swift */; };
-		FB2DD013209FC0E600C999F6 /* user-post.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = FB2DD012209FC0E600C999F6 /* user-post.jsbundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,7 +71,6 @@
 		735F7F2E2015249400B6668A /* String+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Util.swift"; sourceTree = "<group>"; };
 		735F7F30201525E100B6668A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D3463C5243B127995268CC6D /* Pods-UserPost.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserPost.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UserPost/Pods-UserPost.debug.xcconfig"; sourceTree = "<group>"; };
-		FB2DD012209FC0E600C999F6 /* user-post.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "user-post.jsbundle"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,7 +167,6 @@
 		7343E9152008003400066741 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				FB2DD012209FC0E600C999F6 /* user-post.jsbundle */,
 				735F7F2B2015232000B6668A /* KaraokeLiveViewController.swift */,
 			);
 			path = ViewControllers;
@@ -329,7 +326,6 @@
 				735F7F202009C52700B6668A /* app-store-icon.png in Resources */,
 				7343E91B2008068100066741 /* Main.storyboard in Resources */,
 				735F7F1B2009C43500B6668A /* app-icon.png in Resources */,
-				FB2DD013209FC0E600C999F6 /* user-post.jsbundle in Resources */,
 				735F7F1D2009C43500B6668A /* app-icon@2x.png in Resources */,
 				7343E8F12007FC7E00066741 /* LaunchScreen.storyboard in Resources */,
 				735F7F1A2009C43500B6668A /* app-icon@2x~iPad-pro.png in Resources */,
@@ -569,7 +565,7 @@
 				DEVELOPMENT_TEAM = 7QRW68DD5X;
 				INFOPLIST_FILE = "$(SRCROOT)/KaraokeLive/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cazares.karaokeLive;
+				PRODUCT_BUNDLE_IDENTIFIER = cazares.karaoke.live;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -585,7 +581,7 @@
 				DEVELOPMENT_TEAM = 7QRW68DD5X;
 				INFOPLIST_FILE = "$(SRCROOT)/KaraokeLive/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cazares.karaokeLive;
+				PRODUCT_BUNDLE_IDENTIFIER = cazares.karaoke.live;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

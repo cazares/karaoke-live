@@ -5,7 +5,7 @@ import {
   TouchableOpacity
 } from 'react-native';
 
-import style from '../style/user-post-style';
+import style from '../style/karaoke-live-style';
 import { prettyPrint } from '../util/logging';
 
 export default class SimpleList extends React.Component {

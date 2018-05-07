@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text, View } from 'react-native';
 
-import style from '../style/user-post-style';
+import style from '../style/karaoke-live-style';
 import SongRow from '../shared/song-row';
 import NavButton from '../util/ui';
 import { prettyPrint } from '../util/logging';
@@ -76,16 +76,15 @@ export default class UserList extends React.Component {
     this.onSuccessSongs(this.getSongs());
   }
 
-  onUserPress = (user) => {
-    const { navigate } = this.props.navigation;
-    navigate('PostList', { userId: user.id });
+  onSongPress = (user) => {
+    
   }
 
   onSuccessSongs = (songs) => {
     console.log(`songs from server: ${prettyPrint(songs)}`);
     const songRows = songs.map(song => (
       <SongRow
-        song={song} onPress={() => this.onUserPress(song)} />
+        song={song} onPress={() => this.onSongPress(song)} />
     ));
     this.setState({ songRows });
   }

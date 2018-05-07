@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text, View } from 'react-native';
 
-import style from '../style/user-post-style';
+import style from '../style/karaoke-live-style';
 import PostRow from '../shared/post-row';
 import { prettyPrint } from '../util/logging';
 

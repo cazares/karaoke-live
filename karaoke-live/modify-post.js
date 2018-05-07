@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text, TextInput, KeyboardAvoidingView, Keyboard } from 'react-native';
 
-import style from '../style/user-post-style';
+import style from '../style/karaoke-live-style';
 import { isAndroid } from '../util/platform';
 
 const IPHONE_VERTICAL_OFFSET = 64;

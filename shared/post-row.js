@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactNative, { Text, View } from 'react-native';
 
-import style from '../style/user-post-style';
+import style from '../style/karaoke-live-style';
 
 export default class PostRow extends React.Component {
   render() {

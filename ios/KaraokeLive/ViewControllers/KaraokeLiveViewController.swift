@@ -13,7 +13,7 @@ class KaraokeLiveViewController: BaseReactNativeViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        moduleName = "UserPost"
+        moduleName = "KaraokeLive"
     }
     
     override func viewDidAppear(_ animated: Bool) {
