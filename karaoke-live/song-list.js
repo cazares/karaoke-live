@@ -10,11 +10,13 @@ import { requestHandlerForMethod } from '../util/api';
 import SimpleList from '../shared/simple-list';
 import { LoadingIndicator } from '../util/loading-util';
 
+import SortFilterBar from '../shared/sort-filter-bar';
+
 const USERS_URL = 'users';
 const SORT_TITLE = 'Sort';
 const NAV_TITLE = 'Karaoke Live';
 
-export default class UserList extends React.Component {
+export default class SongList extends React.Component {
   static navigationOptions = ({ navigation }) => {
     const { state } = navigation;
     const params = state.params || {};
@@ -97,10 +99,22 @@ export default class UserList extends React.Component {
     this.setState({ loading });
   }
 
+  onSortPressed = () => {
+
+  }
+
+  onFilterPressed = () => {
+
+  }
+
   render() {
     const { loading, songRows } = this.state;
     return (
       <LoadingIndicator loading={loading}>
+        <SortFilterBar 
+          onSortPressed={this.onSortPressed} 
+          onFilterPressed={this.onFilterPressed} 
+        />
         <SimpleList>
           {songRows}
         </SimpleList>
