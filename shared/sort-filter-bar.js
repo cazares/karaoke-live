@@ -5,13 +5,22 @@ import { compose, setPropTypes } from 'recompose';
 
 import style from '../style/karaoke-live-style';
 
-const SortFilterBar = ({ onSortPressed, onFilterPressed }) => (
+const SortFilterBar = ({ onShufflePressed, onSortPressed, onFilterPressed }) => (
   <View style={style.sortFilterBarContainer} >
+    <TouchableOpacity
+      style={style.button}
+      onPress={onShufflePressed}
+    >
+      <Text style={style.sortFilterButtonText}>
+        Shuffle
+      </Text>
+    </TouchableOpacity>
+    <View style={{flex: 1}} />
     <TouchableOpacity
       style={style.button}
       onPress={onSortPressed}
     >
-      <Text style={style.buttonText}>
+      <Text style={style.sortFilterButtonText}>
         Sort
       </Text>
     </TouchableOpacity>
@@ -19,7 +28,7 @@ const SortFilterBar = ({ onSortPressed, onFilterPressed }) => (
       style={style.button}
       onPress={onFilterPressed}
     >
-      <Text style={style.buttonText}>
+      <Text style={style.sortFilterButtonText}>
         Filter
       </Text>
     </TouchableOpacity>

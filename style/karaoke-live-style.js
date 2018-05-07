@@ -72,4 +72,17 @@ export default StyleSheet.create({
   postBodyInput: {
     flex: 1,
   },
+  sortFilterBarContainer: {
+    height: 40,
+    alignItems: 'flex-end',
+    flexDirection: 'row',
+  },
+  button: {
+    margin: 10,
+    marginLeft: 15,
+    marginRight: 15,
+  },
+  sortFilterButtonText: {
+    fontWeight: '600',
+  },
 });
