@@ -25,6 +25,8 @@
 		735F7F2C2015232000B6668A /* KaraokeLiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735F7F2B2015232000B6668A /* KaraokeLiveViewController.swift */; };
 		735F7F2F2015249400B6668A /* String+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735F7F2E2015249400B6668A /* String+Util.swift */; };
 		735F7F31201525E100B6668A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735F7F30201525E100B6668A /* Constants.swift */; };
+		FBBC1A6220A11F9D000B1CD7 /* karaoke-live.jsbundle.meta in Resources */ = {isa = PBXBuildFile; fileRef = FBBC1A6020A11F9D000B1CD7 /* karaoke-live.jsbundle.meta */; };
+		FBBC1A6320A11F9D000B1CD7 /* karaoke-live.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = FBBC1A6120A11F9D000B1CD7 /* karaoke-live.jsbundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +73,8 @@
 		735F7F2E2015249400B6668A /* String+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Util.swift"; sourceTree = "<group>"; };
 		735F7F30201525E100B6668A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D3463C5243B127995268CC6D /* Pods-UserPost.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserPost.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UserPost/Pods-UserPost.debug.xcconfig"; sourceTree = "<group>"; };
+		FBBC1A6020A11F9D000B1CD7 /* karaoke-live.jsbundle.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "karaoke-live.jsbundle.meta"; sourceTree = SOURCE_ROOT; };
+		FBBC1A6120A11F9D000B1CD7 /* karaoke-live.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "karaoke-live.jsbundle"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +136,8 @@
 		7343E8E52007FC7E00066741 /* KaraokeLive */ = {
 			isa = PBXGroup;
 			children = (
+				FBBC1A6120A11F9D000B1CD7 /* karaoke-live.jsbundle */,
+				FBBC1A6020A11F9D000B1CD7 /* karaoke-live.jsbundle.meta */,
 				735F7F21200A8D3300B6668A /* Images */,
 				735F7F2D2015246A00B6668A /* Util */,
 				735F7EFD2008379E00B6668A /* Base Components */,
@@ -322,6 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				735F7F1E2009C43500B6668A /* app-icon@2x~iPad.png in Resources */,
+				FBBC1A6320A11F9D000B1CD7 /* karaoke-live.jsbundle in Resources */,
 				735F7F142009C11500B6668A /* app-icon@3x.png in Resources */,
 				735F7F202009C52700B6668A /* app-store-icon.png in Resources */,
 				7343E91B2008068100066741 /* Main.storyboard in Resources */,
@@ -330,6 +337,7 @@
 				7343E8F12007FC7E00066741 /* LaunchScreen.storyboard in Resources */,
 				735F7F1A2009C43500B6668A /* app-icon@2x~iPad-pro.png in Resources */,
 				7343E8EE2007FC7E00066741 /* Assets.xcassets in Resources */,
+				FBBC1A6220A11F9D000B1CD7 /* karaoke-live.jsbundle.meta in Resources */,
 				735F7F1C2009C43500B6668A /* app-icon~iPad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
